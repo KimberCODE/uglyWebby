@@ -1,52 +1,101 @@
-h1 {
-    color: #e2d630;
-    background-color: burlywood;
-    font-family: 'Garamond';
-    font-weight: lighter;
-    text-align: right;
-    font-size: 75px;
+body{
+    background: purple;
+  background-size:cover;
+  background-repeat: no-repeat;
 }
+
+
+
+h1 {
+    color: whitesmoke;
+    background-image: url("https://thumbs.dreamstime.com/z/very-busy-background-lively-colourful-array-blobs-clusters-forming-stark-background-widescreen-format-152831252.jpg");
+    background-color: #cccccc;
+    background-size: 30px;
+    font-family: 'Times New Roman', serif;
+    font-size: 60px;
+    font-weight: bolder;
+    text-align: right;
+    font: size 60px;
+}
+
+h3{
+    text-decoration: dotted;
+    color: chartreuse;
+    font-size: 100px;
+    background-image: url("https://thumbs.dreamstime.com/z/very-busy-background-lively-colourful-array-blobs-clusters-forming-stark-background-widescreen-format-152831252.jpg");
+    background-color: #cccccc;
+    text-align: center;
+}
+
 
 p {
-    color: #6799e4;
+    color: #6fe467;
     font-family: 'Trebuchet', sans-serif, monospace;
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 36px;
+    line-height: 20px;
     margin: 1 1 24px;
     text-align: center;
-    text-justify: inter-word;
+    text-justify:inter-word;
+    /* this is the latin paragraph above */
 }
 
-textarea {
-    margin: 200px;
-    width: 500px;
-    height: 150px;
-}
 
 ul, ol {
-    margin: 20px;
-    padding: 0;
+    color: antiquewhite;
+    font-size: xx-large;
+    margin:10cap;
+    padding:15cap;
+    width: 19px;
+  height: 250px;
+  border-color: #0b0404;
+  border-width: .8cap;
+  border-style:dashed;
+  border-radius: 1cap;
+  background: rgb(29, 162, 27);
+  animation: mymove 5s infinite;
 }
+@keyframes mymove {
+    from {background-color: rgb(141, 232, 56);}
+    to {background-color: rgb(255, 0, 153);}
+    
 
-li {
-    font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
-    border-bottom: 1px solid #ccc;
-}
-   
-li:last-child {
-    border: none;
+
+
+li{
+    color: aliceblue;
+}}
+/* there are 2 }} here but if i delete one it will change EVERYTHing about the form and textarea. */
+
+
+
+textarea {
+    margin: 100px;
+    width: 150px;
+    height: 150px;
+    /* this is the text box at the bottom of the screen */
+    background-color: #44dc53;
 }
 
 form {
+    /* this is the box behind the two text boxes at the bottom of the screen */
     height:110px;
-    width:190px;
-    margin:auto;
-    border:1px #CCC solid;
+    width:290px;
+    margin:22cap;
+    border:1px #a31717 solid;
     padding:10px;
+    color-scheme: green;
 }
     
+
 input, textarea {
-    padding:12px;
+    /* these are the two boxes you can type in at the bottom of the screen */
+    padding:15px;
     margin:12px
 
+}
+button{
+    border-color: darkblue;
+    border-style: groove;
+    border-width: 1cap;
+    /* the only successful thing I selected and styled from html alone */
 }
